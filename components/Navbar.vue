@@ -46,11 +46,62 @@
       </div>
     </div>
     <!-- Account -->
-    <div class="flex items-center py-2 rounded-md absolute right-8">
-      <div class="text-white font-medium px-4">
-        Usuario
+    <div class="flex items-center py-2 rounded-md pr-4 pt-4 bg-transparent z-50 absolute right-8 " @click="isOpen = ! isOpen">
+      <div v-if="isOpen" class="flex flex-col absolute top-1 right-3 border-2 w-52 py-4 px-6 bg-gray-800 border-gray-500 z-30 rounded-md">
+        <!-- Accounts -->
+        <div class="space-y-4 pt-12">
+          <div class="flex items-center">
+            <img class="w-12 h-12 mr-2 rounded-full" src="https://i.pinimg.com/originals/25/27/59/252759aa916336f998ca11086015a16a.jpg" alt="">
+            <div class="text-white">
+              Carlos
+            </div>
+          </div>
+          <div class="flex items-center">
+            <img class="w-12 h-12 mr-2 rounded-full" src="https://i.pinimg.com/originals/13/38/56/133856009a021270fc2307e019eb7548.jpg" alt="">
+            <div class="text-white">
+              Rodri
+            </div>
+          </div>
+          <div class="flex items-center">
+            <img class="w-12 h-12 mr-2 rounded-full" src="https://resizing.flixster.com/2SWqchwOqtMVrEXZO-uo5RjvRyI=/272x272/v1.czsxMDI3NTA4NztqOzE4ODA1OzIwNDg7MjcyOzI3Mg" alt="">
+            <div class="text-white">
+              Steven
+            </div>
+          </div>
+        </div>
+        <!-- Options -->
+        <div class="space-y-2 flex flex-col items-start pt-4">
+          <button class="text-gray-200 text-sm focus:outline-none">
+            Editar perfiles
+          </button>
+          <button class="text-gray-200 text-sm focus:outline-none">
+            Ajustes de la aplicación
+          </button>
+          <button class="text-gray-200 text-sm focus:outline-none">
+            Cuenta
+          </button>
+          <button class="text-gray-200 text-sm focus:outline-none">
+            Ayuda
+          </button>
+          <NuxtLink to="/landing">
+            <button class="text-gray-200 text-sm focus:outline-none">
+              Cerrar sesión
+            </button>
+          </NuxtLink>
+        </div>
       </div>
-      <img class="w-10 h-10 mx-3 rounded-full" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/vision_1.jpg" alt="">
+      <div class="text-white font-medium pl-4 pr-2 z-50">
+        Steven
+      </div>
+      <img class="w-10 h-10 mr-4 rounded-full z-50" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/vision_1.jpg" alt="">
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    isOpen: false
+  })
+}
+</script>

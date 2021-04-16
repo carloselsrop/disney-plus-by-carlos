@@ -1,9 +1,11 @@
 <template>
   <div style="background-image: url('https://cannonball-cdn.bamgrid.com/assets/originals/Mlp_Hero_Br_&_Rola_Desktop_v2.jpg')" class="h-screen w-full landing-back">
     <div>
-      <button class="absolute right-6 top-6 text-white py-1 px-2 rounded-sm border-2 border-white focus:outline-none">
-        INICIAR SESION
-      </button>
+      <NuxtLink to="/login">
+        <button class="absolute right-6 top-6 text-white py-1 px-2 rounded-sm border-2 border-white focus:outline-none">
+          INICIAR SESION
+        </button>
+      </NuxtLink>
     </div>
     <div class="h-full flex flex-col justify-center pl-16">
       <div>
@@ -29,7 +31,7 @@
             </div>
           </div>
           <div>
-            <button class="px-20 text-xl bg-blue-500 text-white py-3 rounded font-light">
+            <button class="px-20 text-xl bg-blue-500 text-white py-3 rounded font-light focus:outline-none">
               SUSCRIBETE AHORA
             </button>
           </div>
@@ -45,7 +47,7 @@
             </div>
           </div>
           <div>
-            <button class="px-20 text-xl bg-blue-500 text-white py-3 rounded font-light">
+            <button class="px-20 text-xl bg-blue-500 text-white py-3 rounded font-light focus:outline-none">
               SUSCRIBETE AHORA
             </button>
           </div>
