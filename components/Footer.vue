@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-black flex flex-col items-center py-6 space-y-4">
+  <div class="w-full bg-black flex flex-col items-center py-4 space-y-4">
     <div>
       <img class="w-16" src="@/static/disneyplus.png" alt="">
     </div>
