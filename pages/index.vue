@@ -7,8 +7,8 @@
       <Slider />
     </div>
     <!-- Categories -->
-    <div class="mx-24 py-10 flex space-x-8">
-      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700">
+    <div class="mx-24 py-10 flex justify-between">
+      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
         <div class="container bg-gray-800">
           <div class="text flex items-center justify-center">
             <img class="w-40" src="https://pngimg.com/uploads/walt_disney/walt_disney_PNG3.png" alt="">
@@ -18,7 +18,7 @@
           </div>
         </div>
       </div>
-      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700">
+      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
         <div class="container bg-gray-800">
           <div class="text flex items-center justify-center">
             <img class="w-60" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7F4E1A299763030A0A8527227AD2812C049CE3E02822F7EDEFCFA1CFB703DDA5/scale?width=600&aspectRatio=1.78&format=png" alt="">
@@ -28,7 +28,7 @@
           </div>
         </div>
       </div>
-      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700">
+      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
         <div class="container bg-gray-800">
           <div class="text flex items-center justify-center">
             <img class="w-40" src="https://logodownload.org/wp-content/uploads/2017/05/marvel-logo-4.png" alt="">
@@ -38,7 +38,7 @@
           </div>
         </div>
       </div>
-      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700">
+      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
         <div class="container bg-gray-800">
           <div class="text flex items-center justify-center">
             <img class="w-40" src="https://www.pngkit.com/png/full/0-6869_propel-star-wars-battle-drones-logo-star-wars.png" alt="">
@@ -48,7 +48,7 @@
           </div>
         </div>
       </div>
-      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700">
+      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
         <div class="container bg-gray-800">
           <div class="text flex items-center justify-center">
             <img class="w-60" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2EF24AA0A1E648E6D1A3B26491F516632137ED87AB22969D153316F8BD670FB5/scale?width=600&aspectRatio=1.78&format=png" alt="">
@@ -98,6 +98,8 @@
         <MediaItem :url="'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/162CCE10190E261A552EABE15FD4B7C1464E51B73CB88052790A45EAC8073459/scale?width=1200&aspectRatio=1.78&format=jpeg'" />
       </div>
     </div>
+    <!-- Footer -->
+    <Footer />
   </div>
 </template>
 

@@ -46,7 +46,7 @@
       </div>
     </div>
     <!-- Account -->
-    <div class="flex items-center border-t-2 border-b-2 py-2 rounded-md shadow-lg absolute right-8">
+    <div class="flex items-center py-2 rounded-md absolute right-8">
       <div class="text-white font-medium px-4">
         Usuario
       </div>
