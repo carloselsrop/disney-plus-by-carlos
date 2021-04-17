@@ -7,54 +7,61 @@
       <Slider />
     </div>
     <!-- Categories -->
-    <div class="mx-24 py-10 flex justify-between">
-      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
-        <div class="container bg-gray-800">
-          <div class="text flex items-center justify-center">
-            <img class="w-40" src="https://pngimg.com/uploads/walt_disney/walt_disney_PNG3.png" alt="">
-          </div>
-          <div class="img">
-            <img class="h-40 rounded-md" src="https://media1.giphy.com/media/d8SMqAtm3D9bYfOtcs/giphy.gif" height="100%" width="100%" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
-        <div class="container bg-gray-800">
-          <div class="text flex items-center justify-center">
-            <img class="w-60" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7F4E1A299763030A0A8527227AD2812C049CE3E02822F7EDEFCFA1CFB703DDA5/scale?width=600&aspectRatio=1.78&format=png" alt="">
-          </div>
-          <div class="img">
-            <img class="h-40 rounded-md" src="https://media1.tenor.com/images/70eb5493160cd1108c37f5bcbafbb72a/tenor.gif?itemid=16128701" height="100%" width="100%" alt="">
+    <div class="mx-24 py-10 bg-red-500">
+      <div class="w-full flex justify-between">
+        <!-- Disney -->
+        <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
+          <div class="container bg-gray-800">
+            <div class="text flex items-center justify-center">
+              <img class="w-40" src="https://pngimg.com/uploads/walt_disney/walt_disney_PNG3.png" alt="">
+            </div>
+            <div class="img">
+              <img class="h-40 rounded-md" src="https://media1.giphy.com/media/d8SMqAtm3D9bYfOtcs/giphy.gif" height="100%" width="100%" alt="">
+            </div>
           </div>
         </div>
-      </div>
-      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
-        <div class="container bg-gray-800">
-          <div class="text flex items-center justify-center">
-            <img class="w-40" src="https://logodownload.org/wp-content/uploads/2017/05/marvel-logo-4.png" alt="">
-          </div>
-          <div class="img">
-            <img class="h-40 rounded-md" src="https://i.pinimg.com/originals/f2/d2/ee/f2d2ee07809be8f0139fb12071bb4d28.gif" height="100%" width="100%" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
-        <div class="container bg-gray-800">
-          <div class="text flex items-center justify-center">
-            <img class="w-40" src="https://www.pngkit.com/png/full/0-6869_propel-star-wars-battle-drones-logo-star-wars.png" alt="">
-          </div>
-          <div class="img">
-            <img class="h-40 rounded-md" src="https://media2.giphy.com/media/jUcEUcpxPMrFhR0f8f/giphy.gif" height="100%" width="100%" alt="">
+        <!-- Pixar -->
+        <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
+          <div class="container bg-gray-800">
+            <div class="text flex items-center justify-center">
+              <img class="w-60" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7F4E1A299763030A0A8527227AD2812C049CE3E02822F7EDEFCFA1CFB703DDA5/scale?width=600&aspectRatio=1.78&format=png" alt="">
+            </div>
+            <div class="img">
+              <img class="h-40 rounded-md" src="https://media1.tenor.com/images/70eb5493160cd1108c37f5bcbafbb72a/tenor.gif?itemid=16128701" height="100%" width="100%" alt="">
+            </div>
           </div>
         </div>
-      </div>
-      <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
-        <div class="container bg-gray-800">
-          <div class="text flex items-center justify-center">
-            <img class="w-60" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2EF24AA0A1E648E6D1A3B26491F516632137ED87AB22969D153316F8BD670FB5/scale?width=600&aspectRatio=1.78&format=png" alt="">
+        <!-- Marvel -->
+        <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
+          <div class="container bg-gray-800">
+            <div class="text flex items-center justify-center">
+              <img class="w-40" src="https://logodownload.org/wp-content/uploads/2017/05/marvel-logo-4.png" alt="">
+            </div>
+            <div class="img">
+              <img class="h-40 rounded-md" src="https://i.pinimg.com/originals/f2/d2/ee/f2d2ee07809be8f0139fb12071bb4d28.gif" height="100%" width="100%" alt="">
+            </div>
           </div>
-          <div class="img">
-            <img class="h-40 rounded-md" src="https://thumbs.gfycat.com/ConfusedCommonHeron-max-14mb.gif" height="100%" width="100%" alt="">
+        </div>
+        <!-- Star wars -->
+        <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
+          <div class="container bg-gray-800">
+            <div class="text flex items-center justify-center">
+              <img class="w-40" src="https://www.pngkit.com/png/full/0-6869_propel-star-wars-battle-drones-logo-star-wars.png" alt="">
+            </div>
+            <div class="img">
+              <img class="h-40 rounded-md" src="https://media2.giphy.com/media/jUcEUcpxPMrFhR0f8f/giphy.gif" height="100%" width="100%" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- National Geo -->
+        <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">
+          <div class="container bg-gray-800">
+            <div class="text flex items-center justify-center">
+              <img class="w-60" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2EF24AA0A1E648E6D1A3B26491F516632137ED87AB22969D153316F8BD670FB5/scale?width=600&aspectRatio=1.78&format=png" alt="">
+            </div>
+            <div class="img">
+              <img class="h-40 rounded-md" src="https://thumbs.gfycat.com/ConfusedCommonHeron-max-14mb.gif" height="100%" width="100%" alt="">
+            </div>
           </div>
         </div>
       </div>
