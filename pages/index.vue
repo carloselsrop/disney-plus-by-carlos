@@ -7,7 +7,7 @@
       <Slider />
     </div>
     <!-- Categories -->
-    <div class="mx-24 py-10 bg-red-500">
+    <div class="mx-24 py-10">
       <div class="w-full flex justify-between">
         <!-- Disney -->
         <div class="w-80 h-28 flex items-center justify-center rounded-lg shadow-xl py-20 bg-gray-800 border-2 border-gray-700 cursor-pointer">

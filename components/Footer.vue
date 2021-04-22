@@ -4,24 +4,24 @@
       <img class="w-16" src="@/static/disneyplus.png" alt="">
     </div>
     <div class="flex space-x-6">
-      <div class="text-white text-xs">
+      <div class="text-white text-xs focus:outline-none cursor-pointer">
         Politica de privacidad
       </div>
-      <div class="text-white text-xs">
+      <div class="text-white text-xs focus:outline-none cursor-pointer">
         Acuerdo de suscripcion
       </div>
-      <div class="text-white text-xs">
+      <div class="text-white text-xs focus:outline-none cursor-pointer">
         Ayuda
       </div>
-      <div class="text-white text-xs">
+      <div class="text-white text-xs focus:outline-none cursor-pointer">
         Dispositivos compatibles
       </div>
     </div>
     <div class="flex space-x-6">
-      <div class="text-white text-xs">
+      <div class="text-white text-xs focus:outline-none cursor-pointer">
         Ayuda de Disney+
       </div>
-      <div class="text-white text-xs">
+      <div class="text-white text-xs focus:outline-none cursor-pointer">
         Publicidad personalizada
       </div>
     </div>

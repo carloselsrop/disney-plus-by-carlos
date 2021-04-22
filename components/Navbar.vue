@@ -5,7 +5,7 @@
       <img class="w-20" src="https://logodownload.org/wp-content/uploads/2020/11/disney-plus-logo-3.png" alt="">
     </div>
     <!-- Navigation Buttons -->
-    <div>
+    <div class="md:">
       <div class="flex items-center space-x-14">
         <div class="flex items-center">
           <img class="w-3 h-3" src="https://freepikpsd.com/wp-content/uploads/2019/10/217-2171720_icon-white-house-home-icon-white-png.png" alt="">
